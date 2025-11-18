@@ -28,3 +28,17 @@ Fraction Saisie1_Frac() {
     return frac;
     
 }
+
+
+void Affich_Frac(Fraction frac){
+    printf("Fraction : %d/%d\n", frac.numerateur, frac.denominateur);
+}
+
+Fraction Produit_Fract(Fraction f_a, Fraction f_b){
+    Fraction resultat;
+
+    resultat.numerateur = f_a.numerateur * f_b.numerateur;
+    resultat.denominateur = f_a.denominateur * f_b.denominateur;
+
+    return resultat;
+}

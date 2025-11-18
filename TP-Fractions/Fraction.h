@@ -10,10 +10,10 @@ typedef struct T_Fraction Fraction;
 /**
  * ! Faire saisir une fraction à l'utilisateur
  */
-Fraction Creer_Frac (int a, int b);
+Fraction Saisie1_Frac();
 
 /**
  * ! Affichage simple d'une fraction
  */
-Fraction Saisie1_Frac();
+void Affich_Frac
 #endif //FRACTION_H
