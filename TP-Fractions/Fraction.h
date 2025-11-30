@@ -32,4 +32,8 @@ Fraction Produit_Frac(Fraction f_a, Fraction f_b);
 
 Fraction Somme_Frac(Fraction f_a,Fraction f_b);
 
+Fraction Inverse_Frac(Fraction frac);
+
+Fraction Division_Frac(Fraction f_a, Fraction f_b);
+
 #endif //FRACTION_H

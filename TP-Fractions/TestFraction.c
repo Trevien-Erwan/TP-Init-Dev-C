@@ -1,3 +1,4 @@
+
 /*
 dans un fihcier .h on met 
     - définition de fonctions
@@ -34,5 +35,13 @@ int main() {
     printf("Resultat addition :\n");
     Affich_Frac(res);
 
+    res = Inverse_Frac(fraction);
+    printf("Resultat inverse :\n");
+    Affich_Frac(res);
+
+    res = Division_Frac(fraction, f2);
+    printf("Resultat division :\n");
+    Affich_Frac(res);
+    
     return 0;
 }

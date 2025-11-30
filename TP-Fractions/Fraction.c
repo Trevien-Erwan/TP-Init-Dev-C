@@ -80,3 +80,13 @@ Fraction Somme_Frac(Fraction f_a,Fraction f_b) {
 
     return resultat;
 }
+
+Fraction Inverse_Frac(Fraction frac){
+    return Creer_Frac(frac.denominateur, frac.numerateur);
+}
+
+Fraction Division_Frac(Fraction f_a, Fraction f_b){
+    Fraction resultat = Produit_Frac(f_a, Inverse_Frac(f_b));
+    Reduire_Frac(&resultat);
+    return resultat;
+}
